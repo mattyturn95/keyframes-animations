@@ -1,0 +1,28 @@
+.box 
+{
+    background-color: #000;
+    width: 0px;
+    height: 0;
+    margin: 25px;
+    animation-name: growing;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 10s;
+}
+
+@keyframes growing 
+{
+    from 
+    {
+        height: 0;
+        width: 0;
+    }
+    
+    to 
+    {
+        height: 300px;
+        width:300px;
+    }
+}
